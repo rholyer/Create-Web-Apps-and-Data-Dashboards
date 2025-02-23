@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas
 
 data = {
   'Series_1':[1,3,4,5,7],
@@ -11,6 +12,5 @@ st.title('Streamlit App')
 st.subheader('Introducing Streamlit in Automate Everything with Python')
 st.write('''Look at you go! \n
 Coding like a pro!
-{{{df}}}
 ''')
 st.write(df)
